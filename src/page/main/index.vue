@@ -12,6 +12,7 @@
 <script>
   import CesiumBall from '@/components/cesiumBall.vue'
   import NavBar from '@/components/navBar.vue'
+  import Axios from 'axios'
   export default{
     data(){
       return{
@@ -19,7 +20,10 @@
       }
     },
     components:{
-      CesiumBall,NavBar
+      CesiumBall,NavBar,Axios
+    },
+    mounted() {
+      
     }
   }
 </script>
