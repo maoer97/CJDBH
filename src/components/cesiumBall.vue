@@ -1,4 +1,5 @@
 <template>
+  <!-- 三维地图展示 -->
   <div class="box">
     <div id="cesiumContainer"></div>
   </div>

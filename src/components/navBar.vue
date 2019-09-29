@@ -1,4 +1,5 @@
 <template>
+  <!-- 头部导航 -->
   <div class="navBar">
     <ul></ul>
   </div>

@@ -5,6 +5,7 @@
     <div class="leftBoxL">
       <div class="leftBoxOne"></div>
     </div>
+    <div class="rightBoxL"></div>
   </div>
 </template>
 
@@ -30,7 +31,6 @@
   }
   .main{
     position: relative;
-    background: #000;
     width: 100%;
     height: 100%;
     background: url(../../assets/img/bg.png)no-repeat;
@@ -42,8 +42,16 @@
       left: 20px;
       top: 94px;
       .leftBoxOne{
-        
+
       }
+    }
+    .rightBoxL{
+      width:415px;
+      height: 918px;
+      background: url(../../assets/img/rightLineBox.png)no-repeat right;
+      position: absolute;
+      right: 20px;
+      top: 94px;
     }
   }
 </style>
