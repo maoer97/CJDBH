@@ -20,10 +20,10 @@
       }
     },
     components:{
-      CesiumBall,NavBar,Axios
+      CesiumBall,NavBar
     },
     mounted() {
-      
+
     }
   }
 </script>
